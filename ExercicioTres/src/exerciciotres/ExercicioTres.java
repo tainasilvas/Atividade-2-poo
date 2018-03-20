@@ -10,7 +10,8 @@ public class ExercicioTres {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         
         int num;
         int res;
@@ -22,7 +23,6 @@ public class ExercicioTres {
             if((num % 2)==0){
                 res=num*num;
                 System.out.print(res + "\n");
-            }
         }
         
         System.out.print("\n Soma dos números Ímpares: \n");
